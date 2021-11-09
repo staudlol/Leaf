@@ -1,0 +1,61 @@
+# Leaf Configuration File
+# Developed by Staud
+
+# Inventory
+selector:
+  name: "&aServers"
+  size: 27
+
+# Items
+items:
+  selector:
+    name: "&2(!) &aSelector &2(!)"
+    material: WATCH
+    slot: 4
+    lore:
+      - "&aThis is a navigation tool!"
+
+# Servers
+# You can make as many as you want!
+servers:
+  1:
+    name: "&2(!) &aFactions &2(!)"
+    material: DIAMOND_SWORD
+    slot: 11
+    data: 0
+    command: "joinqueue factions"
+    lore:
+      - ""
+      - "&aHey you can change me!"
+      - "&bin the config.yml"
+      - "&cWhat are you waiting for?"
+      - ""
+  2:
+    name: "&2(!) &aSkyblock &2(!)"
+    material: DIAMOND_PICKAXE
+    slot: 15
+    data: 0
+    command: "joinqueue skyblock"
+    lore:
+      - ""
+      - "&aHey you can change me!"
+      - "&bin the config.yml"
+      - "&cWhat are you waiting for?"
+      - ""
+
+# Scoreboard
+scoreboard:
+  title: "&a&lLeaf"
+  lines:
+    - ""
+    - "&aGlobal &f%online_players%"
+    - ""
+    - "&7Use the server selector"
+    - "&7to choose a server!"
+    - ""
+    - "&2play.leaf.com"
+
+# Welcome Message
+welcome:
+  message:
+    - "&aHello there soldier!"
