@@ -1,6 +1,6 @@
 # Leaf
 
-Leaf is a basic hub core with some basic featured developed by [Staud](https://github.com/staudlol)
+Leaf is a basic hub core with some basic features developed by [Staud](https://github.com/staudlol)
 - This was intended to be a base for anyone looking to create a hub core and didn't know where to start.
 
 ## Features
